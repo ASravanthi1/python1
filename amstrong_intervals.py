@@ -1,6 +1,6 @@
-s,p=map(int,input().split())
+a,s=map(int,input().split())
 count=0
-for i in range(s,p):
+for i in range(a,s):
     le=len(str(i))
     sum1=0
     temp=i
