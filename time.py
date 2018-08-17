@@ -1,4 +1,4 @@
-m=int(input())
-h=m//60
-k=m%60
+s=int(input())
+h=s//60
+k=s%60
 print("%d %d" %(h,k))
