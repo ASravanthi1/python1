@@ -1,11 +1,5 @@
-n=int(input(""))
-i=1
-while True:
-    if(2**i<=n):
-        if(2**i==n):
-            print("yes")
-            break
-    else:
-        print("no")
-        break
-    i=i+1
+s=int(input(""))
+if ( s & ( s - 1 )):
+    print("no")
+else:
+    print("yes")
