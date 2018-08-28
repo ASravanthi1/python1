@@ -1,4 +1,4 @@
-a=input()
-b=a.count(' ')
-c=len(a)
-print(c-b)
+s=input()
+p=s.count(' ')
+v=len(s)
+print(v-p)
