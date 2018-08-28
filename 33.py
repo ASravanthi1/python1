@@ -1,3 +1,3 @@
-a=input()
-b=a.count(' ')
-print(b)
+s=input()
+l=s.count(' ')
+print(l)
