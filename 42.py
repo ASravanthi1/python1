@@ -1,3 +1,3 @@
-ch,st=input().split()
-c=max(ch,st)
+s,m=input().split()
+c=max(s,m)
 print(c)
