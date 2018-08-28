@@ -1,13 +1,18 @@
-lower,upper=map(int,input().split())
-for i in range(lower,upper+1):
-    count=0;l=0;c=0
-    for j in range(1,i+1):
-        if(i%j==0):
+mn,lm=input().split()
+mn=int(mn)
+lm=int(lm)
+
+for i in range(mn+1,lm):
+    count=0
+    for j in range(1,i):
+        if(i % j) == 0:
             count+=1
-    if(count==2):
-        if(c==0):
-            print(i,end=" ")
+            if(count == 2):
+                break
+    else:
+        if(j < mn+200):
+           k=' '
         else:
-            print("",end=" ")
-            print(i,end="")
-        l+=1
+            k=''
+        print(j+1,end=k)
+
