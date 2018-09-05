@@ -1,0 +1,5 @@
+le,w,h=input().split()
+le,w,h=int(le),int(w),int(h)
+srfcarea=2*((le*w)+(w*h)+(h*le))
+vlme=(le*w*h)
+print(srfcarea,vlme)
