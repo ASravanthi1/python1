@@ -1,3 +1,3 @@
-mn=input()
-k=ord(mn)
+ab=input()
+k=ord(ab)
 print(k)
